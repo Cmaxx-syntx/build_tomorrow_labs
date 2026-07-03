@@ -22,7 +22,7 @@
     .pill{border:1px solid var(--line);background:rgba(255,255,255,.06);padding:10px 14px;border-radius:999px;color:var(--muted);font-size:14px}
     .hero{display:grid;grid-template-columns:1.15fr .85fr;gap:28px;align-items:center}
     h1{font-size:clamp(42px,7vw,82px);line-height:.91;margin:0 0 22px;letter-spacing:-.07em}
-    .grad{background:linear-gradient(90deg,var(--gold),var(--orange));-webkit-background-clip:text;color:transparent}
+    .grad{background:linear-gradient(90deg,var(--gold),var(--orange));background-clip:text;-webkit-background-clip:text;color:transparent}
     .lead{font-size:clamp(18px,2.3vw,24px);line-height:1.45;color:#e7e0cf;margin:0 0 28px}
     .actions{display:flex;flex-wrap:wrap;gap:14px;margin:28px 0}
     .btn{display:inline-flex;justify-content:center;align-items:center;border:0;border-radius:14px;padding:16px 22px;font-weight:850;text-decoration:none;cursor:pointer}
@@ -127,8 +127,8 @@
       </div>
       <div class="card">
         <h2>Share this</h2>
-        <p class="muted">Copy this message:</p>
-        <textarea rows="5" readonly>I’m supporting Build Tomorrow Lab — a simple campaign helping a builder turn an idea into a real launch with basic registration, hosting, domain, and digital setup costs. Small support counts: PAYMENT_LINK_HERE</textarea>
+        <label for="share-text" class="muted" style="display:block;margin-bottom:6px">Copy this message:</label>
+        <textarea id="share-text" rows="5" readonly>I’m supporting Build Tomorrow Lab — a simple campaign helping a builder turn an idea into a real launch with basic registration, hosting, domain, and digital setup costs. Small support counts: PAYMENT_LINK_HERE</textarea>
         <a class="btn secondary" href="https://twitter.com/intent/tweet?text=I%E2%80%99m%20supporting%20Build%20Tomorrow%20Lab%20%E2%80%94%20helping%20a%20builder%20turn%20an%20idea%20into%20a%20real%20launch.%20Small%20support%20counts%3A%20PAYMENT_LINK_HERE">Share on X</a>
       </div>
     </section>
