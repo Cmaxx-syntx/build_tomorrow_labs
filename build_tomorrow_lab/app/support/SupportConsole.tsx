@@ -98,13 +98,16 @@ export default function SupportConsole() {
           <div>
             <div className="eyebrow">Step 3</div>
             <h2>Copy the address &amp; send</h2>
-            <p>{note}</p>
+            <p>{note} {hasWalletAction ? 'A direct wallet action is available for Solana.' : 'Copy the address and send from your own wallet or exchange.'}</p>
           </div>
         </div>
 
         {selected ? (
           <div className="glass-panel wallet-card">
             <div className="glass-inner">
+              <div className="panel-note" style={{ marginBottom: 12 }}>
+                <strong>Selected network:</strong> {selected.label} ({selected.chain})
+              </div>
               <div className="wallet-top">
                 <div className="wallet-dot" style={{ background: 'var(--cyan)' }} />
                 <div>
