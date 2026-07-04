@@ -26,7 +26,7 @@ export default function AddressesPage() {
             <strong>EVM address reuse</strong>
             <p style={{ marginTop: 8 }}>
               The same address is used across these EVM networks: Ethereum, BNB Chain, Polygon, Arbitrum One, and Base.
-              This is a single multisig wallet deployed at the same address across EVM chains.
+              Funds are held in a self-custodied wallet. The same address is used across all EVM networks because EVM chains share address derivation.
             </p>
           </div>
           <div className="wallet-grid">

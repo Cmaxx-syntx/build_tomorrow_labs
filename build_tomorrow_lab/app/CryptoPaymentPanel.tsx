@@ -123,7 +123,7 @@ export default function CryptoPaymentPanel() {
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '20px', flexWrap: 'wrap' }}>
                     <div>
                         <div className="panel-title">RECEIVING ADDRESSES</div>
-                        <div className="panel-sub">Public multisig receiving addresses across chains</div>
+                        <div className="panel-sub">Public receiving addresses across chains</div>
                     </div>
                     <div className="pill">Live</div>
                 </div>
