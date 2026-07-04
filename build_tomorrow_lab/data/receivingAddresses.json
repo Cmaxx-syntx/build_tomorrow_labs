@@ -1,0 +1,50 @@
+[
+    {
+        "id": "btc-mainnet",
+        "label": "Bitcoin",
+        "chain": "BTC",
+        "address": "bc1pl3hf2rtkleejnkqwcn7z4ymvt3df8cqxj7wz6r8pxv8f27zp4e2qecnfxv"
+    },
+    {
+        "id": "eth-mainnet",
+        "label": "Ethereum",
+        "chain": "ETH",
+        "address": "0xAcFb3E5de66C0840B00fac8eBE182f1881EA407f"
+    },
+    {
+        "id": "bsc-mainnet",
+        "label": "BNB Chain",
+        "chain": "BSC",
+        "address": "0xAcFb3E5de66C0840B00fac8eBE182f1881EA407f"
+    },
+    {
+        "id": "matic-mainnet",
+        "label": "Polygon",
+        "chain": "MATIC",
+        "address": "0xAcFb3E5de66C0840B00fac8eBE182f1881EA407f"
+    },
+    {
+        "id": "arbitrum-one",
+        "label": "Arbitrum One",
+        "chain": "ARBITRUM",
+        "address": "0xAcFb3E5de66C0840B00fac8eBE182f1881EA407f"
+    },
+    {
+        "id": "base-mainnet",
+        "label": "Base",
+        "chain": "BASE",
+        "address": "0xAcFb3E5de66C0840B00fac8eBE182f1881EA407f"
+    },
+    {
+        "id": "sol-mainnet",
+        "label": "Solana",
+        "chain": "SOL",
+        "address": "Br7FEAs8FZwtLUB7ZGANzDiro5KNsjxy28jV5vuS2xKt"
+    },
+    {
+        "id": "tron-mainnet",
+        "label": "Tron",
+        "chain": "TRON",
+        "address": "TL14xV2KaLKc1gUSJiSoPSAJhtvjGYyFVF"
+    }
+]

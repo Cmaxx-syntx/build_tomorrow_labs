@@ -1,5 +1,30 @@
 # Build Tomorrow Lab
 
+This repository is a Next.js app converted from the original static landing page. It uses the App Router and global CSS to preserve the original design.
+
+## Local development
+
+From the project root:
+
+```bash
+npm install
+npm run dev
+```
+
+Open `http://localhost:3000`.
+
+## Build and production
+
+```bash
+npm run build
+npm run start
+```
+
+## Vercel deployment
+
+Deploy with Vercel using the standard Next.js settings or the Vercel CLI.
+# Build Tomorrow Lab
+
 A neutral, deploy-ready campaign page designed to invite support for practical launch essentials.
 
 ## Fast setup

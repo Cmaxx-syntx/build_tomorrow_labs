@@ -1,0 +1,31 @@
+{
+  "name": "build_tomorrow_lab",
+  "version": "1.0.0",
+  "description": "A neutral, deploy-ready campaign page designed to invite support for practical launch essentials.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "ethers": "^6.17.0",
+    "next": "^15.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.17",
+    "playwright": "^1.55.0",
+    "vercel": "^54.20.0"
+  },
+  "engines": {
+    "node": ">=16.8.0"
+  }
+}
