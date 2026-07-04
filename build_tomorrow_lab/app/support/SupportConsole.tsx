@@ -16,6 +16,7 @@ export default function SupportConsole() {
 
   const selected = getAddress(chain);
   const note = networkNotes[chain] || 'Send only on the listed network.';
+  const hasWalletAction = chain === 'SOL';
 
   function openSolanaWallet() {
     const usd = Number(amount);
@@ -114,12 +115,17 @@ export default function SupportConsole() {
               <div className="wallet-address">{selected.address}</div>
               <div className="payment-actions" style={{ marginTop: 16 }}>
                 <CopyButton value={selected.address} label="Copy address" className="btn primary" />
-                {chain === 'SOL' ? (
+                {hasWalletAction ? (
                   <button type="button" className="btn secondary" onClick={openSolanaWallet}>
                     Open in Solana wallet (${Number(amount) || 0})
                   </button>
                 ) : null}
               </div>
+              {!hasWalletAction ? (
+                <div className="panel-note" style={{ marginTop: 10 }}>
+                  Copy the address and send from your own wallet or exchange.
+                </div>
+              ) : null}
             </div>
           </div>
         ) : (

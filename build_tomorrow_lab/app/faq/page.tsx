@@ -9,7 +9,7 @@ export const metadata = {
 const faqs = [
   {
     q: 'How do I send support?',
-    a: 'Open the support page, choose an amount and a network, copy the receiving address for that network, then send from your own wallet or exchange. On Solana you can also open a compatible wallet directly from the support page.',
+    a: 'Open the support page, choose an amount and a network, then copy the receiving address for that network and send from your own wallet or exchange. On Solana you can also open a compatible wallet directly from the support page. Other networks are copy-only.',
   },
   {
     q: 'What do funds cover?',
@@ -22,6 +22,10 @@ const faqs = [
   {
     q: 'Are contributions refundable?',
     a: 'No. Crypto transactions are irreversible, so contributions cannot be refunded. Please double-check the amount and network before sending.',
+  },
+  {
+    q: 'Why do some networks have a wallet action and others are copy-only?',
+    a: 'Solana has a direct wallet deep-link for convenience. Other networks do not have a one-click action here — copy the address and send from your own wallet or exchange. All listed networks are valid receiving addresses.',
   },
 ];
 

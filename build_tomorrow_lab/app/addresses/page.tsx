@@ -22,6 +22,13 @@ export default function AddressesPage() {
 
       <section className="section-panel glass-panel">
         <div className="glass-inner">
+          <div className="notice" style={{ marginBottom: 20 }}>
+            <strong>EVM address reuse</strong>
+            <p style={{ marginTop: 8 }}>
+              The same address is used across these EVM networks: Ethereum, BNB Chain, Polygon, Arbitrum One, and Base.
+              This is a single multisig wallet deployed at the same address across EVM chains.
+            </p>
+          </div>
           <div className="wallet-grid">
             {receivingAddresses.map((entry) => (
               <div className="glass-panel wallet-card" key={entry.id}>

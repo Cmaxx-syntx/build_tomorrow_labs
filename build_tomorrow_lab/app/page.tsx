@@ -93,7 +93,7 @@ export default function Page() {
             <div>
               <div className="eyebrow">Support tiers</div>
               <h2>Pick a starting point</h2>
-              <p>Tiers are suggestions — any amount helps. Buttons below send on Solana; for other networks, use the support page.</p>
+              <p>Tiers are suggestions — any amount helps. Buttons below send on Solana. For other networks, use the support page to copy the address.</p>
             </div>
           </div>
           <div className="pricing-grid">

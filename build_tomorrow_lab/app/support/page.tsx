@@ -15,7 +15,8 @@ export default function SupportPage() {
           <h1 className="hero-gradient">Send direct support</h1>
           <p className="lead">
             This page is for direct public support. Choose an amount, choose a network, then copy the address
-            and send from your own wallet. All addresses are also listed on the{' '}
+            and send from your own wallet. On Solana you can also open a compatible wallet directly.
+            All addresses are also listed on the{' '}
             <Link href="/addresses" className="panel-link">addresses page</Link>.
           </p>
         </div>
