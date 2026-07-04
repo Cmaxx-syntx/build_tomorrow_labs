@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import CopyButton from '../CopyButton';
+import ConnectWallet from './ConnectWallet';
 import { receivingAddresses, networkNotes, getAddress } from '../addresses';
 
 const amountChips = [10, 25, 50, 100, 250];
@@ -40,6 +41,16 @@ export default function SupportConsole() {
     <div className="glass-panel section-panel">
       <div className="glass-inner">
         <div className="section-head">
+          <div>
+            <div className="eyebrow">Optional</div>
+            <h2>Connect a wallet</h2>
+            <p>See your own address for confidence before you send. Works with EVM (MetaMask) or Solana (Phantom) wallets — this does not sign or send anything.</p>
+          </div>
+        </div>
+
+        <ConnectWallet />
+
+        <div className="section-head" style={{ marginTop: 28 }}>
           <div>
             <div className="eyebrow">Step 1</div>
             <h2>Choose an amount</h2>
