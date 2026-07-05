@@ -1,5 +1,6 @@
 import './globals.css';
 import Nav from './Nav';
+import { Analytics } from '@vercel/analytics/next';
 
 export const metadata = {
   title: 'Builder Support Fund',
@@ -21,6 +22,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </span>
           </div>
         </footer>
+        <Analytics />
       </body>
     </html>
   );
